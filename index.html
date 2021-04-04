@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">N9 dev</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__links" id="services-page"
+              >Project</a
+            >
+          </li>
+          <li class="navbar__btn">
+            <a href="#sign-up" class="button" id="signup">Learn coding?</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">Made by <span>N9 dev</span></h1>
+        <p class="hero__description">Student, coder, dev.</p>
+        <button class="main__btn"><a href="#">More</a></button>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+          <div class="main__img--card"><i class="fas fa-layer-group"></i></div>
+        </div>
+        <div class="main__content">
+          <h1>Who am i?</h1>
+          <h2>I am a student, year 7.</h2>
+          <p>I like coding, especially when it comes to WebDevelopment</p>
+          <button class="main__btn"><a href="#">Back Up</a></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services" id="services">
+      <h1>My Projects</h1>
+      <div class="services__wrapper">
+        <div class="services__card">
+          <h2>Click Counter</h2>
+          <p>Just Click..Click..Click</p>
+          <div class="services__btn"><button ><a href=".\counter\index.html" class="hii">Try</a></button></div>
+        </div>
+        <div class="services__card">
+          <h2>Count Down</h2>
+          <p>2022?.. you here yet?</p>
+          <div class="services__btn"><button><a href=".\timer\timer.html" class="hii">Try</a></button></div>
+        </div>
+        <div class="services__card">
+          <h2>Fall or die.</h2>
+          <p>Go down,Die up.</p>
+          <div class="services__btn"><button><a href=".\fall!\index.html" class="hii">Try</a></button></div>
+        </div>
+        <div class="services__card">
+          <h2>Subway</h2>
+          <p>But with no trains</p>
+          <div class="services__btn"><button><a href=".\subway\subways.html" class="hii">Try</a></button></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="main" id="sign-up">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>Want to learn coding?</h1>
+          <h2>Contact me</h2>
+          <p>We can work together make big projects.</p>
+        </div>
+        <div class="main__img--container">
+          <div class="main__img--card" id="card-2">
+            <i class="fas fa-users"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>About Nasser</h2>
+            <a href="/sign__up">Student</a> <a href="/">Developer</a>
+            <a href="/">N9 is my Nickname</a> <a href="/">High Quality Person.</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Contact Me</h2>
+            <a href="/">nasser.a3_gaa@gaa-ad.com</a> <a href="/">N9#9718 on discord</a>
+            <a href="/">Might not reply as fast as you think.</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Wanna code?</h2>
+            <a href="/"><- Contact me</a> <a href="#">All you need is wifi and computer</a>
+            <a href="/">Coding is cool.</a>
+          </div>
+
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="#" id="footer__logo">N9 dev</a>
+          </div>
+          <p class="website__rights">© N9 dev 2020. All rights reserved</p>
+        </div>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
